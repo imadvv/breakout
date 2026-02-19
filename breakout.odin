@@ -79,7 +79,7 @@ main :: proc() {
 
 		paddle_rect := rl.Rectangle{paddle_pos_x, PADDLE_POS_Y, PADDLE_WIDTH, PADDLE_HEIGHT}
 
-		rl.DrawRectangleRec(paddle_rect, {255, 33, 122, 255})
+		rl.DrawRectangleRec(paddle_rect, {255, 3, 122, 255})
 
 		rl.DrawCircleV(ball_pos, BALL_RADIUS, {244, 122, 234, 255})
 		rl.EndMode2D()
