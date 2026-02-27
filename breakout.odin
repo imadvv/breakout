@@ -5,6 +5,8 @@ import "core:math"
 import "core:math/linalg"
 import rl "vendor:raylib"
 
+SCREEN_X :: 1080
+SCREEN_Y :: 720
 SCREEN_SIZE :: 320
 PADDLE_WIDTH :: 60
 PADDLE_HEIGHT :: 8
