@@ -27,6 +27,7 @@ restart :: proc() {
 }
 
 main :: proc() {
+	fmt.println("========================")
 	rl.SetConfigFlags({.VSYNC_HINT})
 	rl.InitWindow(1280, 720, "Breakout")
 
